@@ -138,7 +138,7 @@
 
         <header class="section-header">
           <h3>Daily Problem</h3>
-          <p>This problem was asked by Snapchat.</p>
+          <p>This problem was asked by Google.</p>
         </header>
 
         <div class="row">
@@ -147,9 +147,18 @@
             <div class="box">
               <div class="icon" style="background: #fceef3;"><i class="ion-ios-analytics-outline" style="color: #ff689b;"></i></div>
               <h4 class="title"><a href="">PROBLEM</a></h4>
-              <p class="description">Given an array of time intervals (start, end) for classroom lectures (possibly overlapping), find the minimum number of rooms required.<br>
+              <p class="description">You are given an M by N matrix consisting of booleans that represents a board. Each True boolean represents a wall. Each False boolean represents a tile you can walk on.<br>
 
-                  <b>For example</b> <br> Given <br> [(30, 75), (0, 50), (60, 150)] <br> You should return 2.</p>
+Given this matrix, a start coordinate, and an end coordinate, return the minimum number of steps required to reach the end coordinate from the start. If there is no possible path, then return null. You can move up, left, down, and right. You cannot move through walls. You cannot wrap around the edges of the board.<br>
+
+                  <b>For example</b><br>, given the following board:<br>
+
+[[f, f, f, f],<br>
+[t, t, f, t],<br>
+[f, f, f, f],<br>
+[f, f, f, f]]<br>
+and start = (3, 0) (bottom left) and end = (0, 0) (top left), the minimum number of steps required to reach the end is 7, since we would need to go through (1, 2) because there is a wall everywhere else on the second row.
+</p>
             </div>
             </div>
             
